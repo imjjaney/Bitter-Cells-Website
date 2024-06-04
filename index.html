@@ -12,18 +12,19 @@
 <body>
   
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./images/Bitter Cells logo.png"></a>
+    <div class="container-fluid px-4 py-3">
+      <a class="navbar-brand me-5" href="#"><img src="./images/Bitter Cells logo.png"></a>
+      <!-- 햄버거 버튼 -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Login</a>
+            <a class="nav-link active" href="https://bittercells.com/member/login.html">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Cart-0</a>
+            <a class="nav-link active" href="https://bittercells.com/order/basket.html">Cart-0</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Search</a>
@@ -33,6 +34,7 @@
     </div>
   </nav>
 
+  <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./images/banner-1.jpg" class="d-block w-100" alt="...">
@@ -40,11 +42,12 @@
       <div class="carousel-item">
         <img src="./images/banner-2.jpg" class="d-block w-100" alt="...">
       </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -54,8 +57,8 @@
     <h2 data-aos="fade-up" data-aos-duration="2000">WANNA BE KITCH?</h2>
   </div>
 
-  <div class="container kitch-cards">
-    <div class="row kitch-container">
+  <div class="container kitch-cards" data-aos="fade-up" data-aos-duration="3000">
+    <div class="row">
       <div class="col md-4 sm-1">
         <div class="card" style="width: 18rem;">
           <a href="https://bittercells.com/product/bella-logo-tee-grey/1213/category/25/display/1/"><img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/web/product/big/202404/0d23a60277889a58846162c570811c51.jpg" class="card-img-top" alt="..."></a>
@@ -99,36 +102,92 @@
     <h2 data-aos="fade-up" data-aos-duration="2000">OUR CONCEPTS💖</h2>
   </div>
 
-  <div class="container concept-container">
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://cafe24img.poxo.com/bittercells/file_data/bittercells/gallery/2024/04/05/2f039c5396cadbdf74d939819e5966d7.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://cafe24img.poxo.com/bittercells/file_data/bittercells/gallery/2023/06/29/1b94c51b17654263d0cf8aa3b39f6de2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://cafe24img.poxo.com/bittercells/file_data/bittercells/gallery/2024/05/02/8d921048ac80dba99f92eed58778f85d.jpg" class="d-block w-100" alt="...">
+  <div class="container" data-aos="flip-left" data-aos-duration="3000">
+    <div class="row">
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2024/05/02/8d921048ac80dba99f92eed58778f85d.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Like a Movie (Star)🎬</p>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2024/04/05/2f039c5396cadbdf74d939819e5966d7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Have a Calm Summer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2024/02/08/e6352bb7326a702ab5b7dd855de3fae0.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Love My Angel♥</p>
+          </div>
+        </div>
+      </div>
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2023/06/29/7da303c7187ccc56e40fe3050835d01d.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">A diary for 2-3 days in Paris</p>
+          </div>
+        </div>
+      </div>
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2023/06/29/1b94c51b17654263d0cf8aa3b39f6de2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Let''s go to Paris!!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2023/02/13/4c63e33737a81f42021dd9471ebaca68.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Get ready for voyage ♥ </p>
+          </div>
+        </div>
+      </div>
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2023/08/18/4f75e95392854e3c03b09412ccb18351.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Rest time in hotel </p>
+          </div>
+        </div>
+      </div>
+      <div class="col sm-1 md-2 lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cafe24.poxo.com/ec01/bittercells/1A66J+oWTqAze9jtV45BSq45kZ/J68kqbcX7p2gBugL37D56eFYaB+fOaG8lpV6KRgj2vU2mHZ70n5gJ/eDooA==/_/file_data/bittercells/gallery/2023/09/22/f7d0b89075998e3d0146d3a41d5e6de8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">California University life </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  
-  
+  <footer class="mt-5 p-5">
+    <div class="first-line">
+      <p>WONDERWALL Co.,ltdJeon Young Min E.MAIL : bittercells.cs@gmail.com</p>
+      <p>ADDRESS: 8F, 220, Dasan-ro, Jung-gu, Seoul, Republic of Korea</p>
+      <p>PERSONAL INFORMATION MANAGER: Jeon Young Min</p>
+      <p>Customer center 02-6238-4323</p>
+    </div>
+    <div class="second-line">
+      <p>Copyright ©Wonderwall co., Ltd. All rights reserved. Hosting by cafe24. Designed by moen.</p>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script>
     AOS.init();
   </script>
+
 </body>
 </html>

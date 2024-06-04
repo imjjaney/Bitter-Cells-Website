@@ -9,6 +9,13 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.navbar {
+  background-color: #f7f5e6 !important;
+}
+
+.navbar .nav-item:hover {
+  text-decoration: underline;
+}
 
 .kitch-cards {
   display : flex;
@@ -23,13 +30,24 @@ body {
   transform: translateY(-20px);
 }
 
-.concept-container {
-  border: 1px solid red;
-  display : flex;
-  justify-content: center;
+.card-body {
+  background-color: #f7f5e6;
 }
 
-.concept-container .carousel-item {
-  width: 20rem; 
+.card {
+  margin-bottom: 2rem;
 }
 
+.first-line {
+  border-bottom: 1px solid darkgrey;
+}
+
+footer p {
+  font-size: 0.75rem;
+  margin: 3px 0;
+  color: grey;
+}
+
+footer image {
+  padding: 2rem;
+}
