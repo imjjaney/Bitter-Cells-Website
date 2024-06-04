@@ -1,0 +1,35 @@
+html, body {
+  margin : 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f5e6;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.kitch-cards {
+  display : flex;
+  justify-content: space-evenly;
+}
+
+.kitch-cards .card { 
+  transition: transform 0.3s ease; 
+}
+
+.kitch-cards .card:hover {
+  transform: translateY(-20px);
+}
+
+.concept-container {
+  border: 1px solid red;
+  display : flex;
+  justify-content: center;
+}
+
+.concept-container .carousel-item {
+  width: 20rem; 
+}
+
